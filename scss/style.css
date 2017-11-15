@@ -1,0 +1,613 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.herohead, .herohome {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffae00;
+  letter-spacing: 1.2; }
+
+.herohome {
+  font-size: 32px; }
+
+.mont13 {
+  font-size: 13px;
+  font-family: "Montserrat", Arial, sans-serif; }
+
+.mont14 {
+  font-size: 13.6px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: bolder; }
+
+.mont16 {
+  font-size: 16px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.mont18 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 18px; }
+
+.mont21 {
+  font-size: 21px;
+  font-family: "Montserrat", Arial, sans-serif; }
+
+.mont24 {
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif; }
+
+.lora15 {
+  font-size: 15px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.lora16 {
+  font-size: 16px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.lora17 {
+  font-size: 17px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.lora18 {
+  font-size: 18px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.lora21 {
+  font-size: 21px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.lora24 {
+  font-size: 24px;
+  font-family: "Lora", Arial, sans-serif; }
+
+.hero {
+  background: url("../images/code-lines.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding-bottom: 40px; }
+  .hero header {
+    padding: 30px 0 25px 14px; }
+  .hero .line-below {
+    width: 100%;
+    height: 5px;
+    background-color: white; }
+  .hero a {
+    color: #f5f5f5;
+    text-align: left;
+    font-weight: 800;
+    letter-spacing: 1.4px;
+    line-height: 1.38; }
+  .hero p {
+    padding: 72px 62px 0 20px; }
+  .hero .white-line {
+    height: 5px;
+    width: 108px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: white; }
+
+.counter-container {
+  width: 280px;
+  height: 178px;
+  background-color: #ffae00;
+  margin: 0 auto 25px;
+  position: relative;
+  top: -25px;
+  z-index: 1; }
+  .counter-container .counter {
+    padding: .5em; }
+    .counter-container .counter .count-contain {
+      display: flex;
+      justify-content: space-around; }
+      .counter-container .counter .count-contain .count-box {
+        background-color: #f5f5f5;
+        height: 83px;
+        width: 31%;
+        display: inline-block; }
+    .counter-container .counter .day {
+      font-weight: bold;
+      color: #f5f5f5;
+      text-align: center;
+      padding: 10px 0 15px 0; }
+    .counter-container .counter .date {
+      color: #f5f5f5;
+      text-align: center; }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+ul.topnav li {
+  float: right; }
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px; }
+
+ul.topnav li a:hover {
+  background-color: #555; }
+
+ul.topnav li.icon {
+  display: none; }
+
+.ticket-container, .sponsor-page .sponsor-ticket, .speaker-page .speaker-ticket {
+  background-color: #DF8D21;
+  height: 200px;
+  width: 281px;
+  margin: 0 auto;
+  position: relative;
+  top: -32px; }
+  .ticket-container h1, .sponsor-page .sponsor-ticket h1, .speaker-page .speaker-ticket h1 {
+    color: #f5f5f5;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 0 35px 0;
+    letter-spacing: 1.2px; }
+  .ticket-container .ticket-button, .sponsor-page .sponsor-ticket .ticket-button, .speaker-page .speaker-ticket .ticket-button {
+    background-color: #f5f5f5;
+    width: 250px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 5%; }
+    .ticket-container .ticket-button a, .sponsor-page .sponsor-ticket .ticket-button a, .speaker-page .speaker-ticket .ticket-button a {
+      color: #ffae00;
+      font-weight: bold;
+      letter-spacing: .9px;
+      padding: 0 auto;
+      text-decoration: none; }
+
+#countbox {
+  width: 100%;
+  font-size: 32px;
+  height: 450px;
+  letter-spacing: 75px;
+  margin: 35px 0 0 85px;
+  position: absolute; }
+
+.white-background {
+  height: auto;
+  width: 92%;
+  padding: .75em; }
+  .white-background h1 {
+    color: #ffae00;
+    font-weight: medium;
+    letter-spacing: 1px; }
+  .white-background h3 {
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    margin-bottom: 15px; }
+  .white-background p {
+    line-height: 1.4;
+    letter-spacing: 0.9px; }
+  .white-background .main-button {
+    background-color: #ffae00;
+    width: 250px;
+    height: 60px;
+    margin: 15px auto 65px;
+    text-align: center; }
+    .white-background .main-button a {
+      color: #f5f5f5;
+      font-weight: bold;
+      letter-spacing: .9px;
+      padding: 0 auto;
+      text-decoration: none; }
+
+.gray-background {
+  height: auto;
+  width: 92%;
+  padding: .75em;
+  background-color: #ebebeb;
+  color: #101010; }
+  .gray-background h3 {
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    line-height: 24px;
+    padding-top: 30px; }
+  .gray-background p {
+    letter-spacing: 0.8px;
+    line-height: 24px; }
+  .gray-background .spacer {
+    padding-bottom: 40px; }
+
+.map {
+  height: 400px;
+  width: 100%; }
+
+.seisan {
+  width: 200px;
+  height: 80px;
+  margin: 15px auto 65px; }
+
+.flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.printed-solid {
+  width: 151px;
+  height: 93px; }
+
+.simple {
+  width: 93px;
+  height: 94px;
+  padding-bottom: 26px; }
+
+.linode {
+  width: 211px;
+  height: 83px;
+  margin-bottom: 55px; }
+
+.lulzbot {
+  width: 110px;
+  height: 113px; }
+
+.tapestry {
+  width: 80px;
+  height: 99px;
+  padding: 0 48px 33px 0px; }
+
+.elastic {
+  width: 179px;
+  height: 62px;
+  margin-bottom: 65px; }
+
+.lullabot {
+  width: 87px;
+  height: 94px;
+  margin: 25px auto 45px; }
+
+.m-logo {
+  height: 71px;
+  width: 225px;
+  position: relative;
+  left: -15px;
+  top: 15px;
+  margin-bottom: 35px; }
+
+.sponsor-page {
+  width: 100%;
+  height: auto;
+  color: #313131; }
+  .sponsor-page .hero {
+    height: auto;
+    padding-bottom: 50px; }
+  .sponsor-page .sponsor-ticket {
+    top: 30px;
+    margin-bottom: 80px; }
+  .sponsor-page .white-background .mont21 {
+    font-weight: 500;
+    margin: 30px auto 20px;
+    letter-spacing: 1px; }
+  .sponsor-page .white-background p {
+    margin-bottom: 25px; }
+    .sponsor-page .white-background p strong {
+      font-weight: bold; }
+  .sponsor-page .gray-background {
+    width: auto; }
+    .sponsor-page .gray-background .mont24 {
+      font-weight: medium;
+      padding-bottom: 20px; }
+    .sponsor-page .gray-background ul {
+      list-style-type: disc;
+      list-style-position: inside;
+      margin: 10px auto 10px; }
+      .sponsor-page .gray-background ul li {
+        margin: 15px auto 15px;
+        line-height: 1.5; }
+  .sponsor-page .herohead, .sponsor-page .herohome {
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    text-align: left; }
+
+.ticket-page .hero .herohead, .ticket-page .hero .herohome {
+  padding-top: 25px;
+  padding-right: 50px;
+  line-height: 1.5;
+  letter-spacing: 1.2px; }
+.ticket-page .white-background h3 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  padding-right: 5px; }
+.ticket-page .white-background h5 {
+  color: #DF8D21; }
+.ticket-page .white-background p {
+  margin: 20px auto 15px; }
+.ticket-page .white-background .divider-gold {
+  height: 2px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #ffae00; }
+.ticket-page .white-background .button-container {
+  width: 100%;
+  margin: 0 auto; }
+  .ticket-page .white-background .button-container .main-button {
+    margin: 20px auto;
+    display: block; }
+
+.about-page .hero {
+  height: auto;
+  padding-bottom: 50px;
+  margin-bottom: 30px; }
+  .about-page .hero a {
+    text-decoration: none; }
+  .about-page .hero .herohead, .about-page .hero .herohome {
+    padding-top: 55px;
+    padding-right: 50px;
+    line-height: 1.5;
+    letter-spacing: 1.2px; }
+.about-page .white-background .ticket-container h1, .about-page .white-background .sponsor-page .sponsor-ticket h1, .sponsor-page .about-page .white-background .sponsor-ticket h1, .about-page .white-background .speaker-page .speaker-ticket h1, .speaker-page .about-page .white-background .speaker-ticket h1 {
+  color: #f5f5f5; }
+.about-page .white-background h3 {
+  font-weight: 500; }
+.about-page .white-background p {
+  margin-bottom: 20px; }
+.about-page .white-background .form-field {
+  height: 50px;
+  width: 280px;
+  border: 1px solid black;
+  margin-bottom: 10px; }
+.about-page .white-background .form-field-end {
+  height: 200px;
+  border: 1px solid black;
+  width: 280px; }
+.about-page .white-background .button-container {
+  width: 100%;
+  margin: 0 0 0 60px; }
+  .about-page .white-background .button-container .main-button {
+    width: 150px;
+    display: block; }
+.about-page .gray-background h3 {
+  margin-bottom: 20px; }
+.about-page .gray-background .lora16 {
+  margin-bottom: 20px; }
+.about-page .gray-background .lora21 {
+  font-family: bold; }
+.about-page .gray-background .about-location {
+  margin-bottom: 30px; }
+  .about-page .gray-background .about-location .lora16 {
+    margin-bottom: 0; }
+.about-page .img {
+  width: 98%;
+  height: auto; }
+
+.gold-background {
+  height: auto;
+  width: 100%;
+  background-color: #ffae00;
+  color: black; }
+  .gold-background .mont21 {
+    padding: 75px 143px 20px 20px;
+    line-height: 1.5;
+    font-weight: bolder; }
+  .gold-background .loc-con {
+    padding: 1em;
+    line-height: 1.5; }
+    .gold-background .loc-con h3 {
+      font-weight: bold; }
+
+.speaker-page {
+  width: 100%;
+  height: auto;
+  color: #313131; }
+  .speaker-page .hero {
+    padding-bottom: 20px; }
+  .speaker-page .speaker-ticket {
+    left: -1px;
+    top: 10px;
+    margin-bottom: 40px; }
+  .speaker-page .white-background h1 {
+    margin: 0 auto 15px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #313131; }
+  .speaker-page .white-background h3 {
+    margin-bottom: 5px;
+    font-size: 18px; }
+  .speaker-page .gray-background h3 {
+    padding-top: 0; }
+  .speaker-page .dropDown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffae00; }
+    .speaker-page .dropDown .yellowArrow {
+      font-size: 40px;
+      margin-bottom: 5px; }
+
+.footer {
+  background-color: #313131;
+  color: #ebebeb; }
+  .footer .code h3 {
+    padding: 56px 149px 22px 20px; }
+  .footer .code p {
+    padding: 0 20px 0 21px;
+    line-height: 1.7; }
+    .footer .code p a {
+      color: #ebebeb; }
+  .footer .connect h3 {
+    padding: 80px 110px 0 20px; }
+  .footer .hashtag h3 {
+    padding: 82px 165px 105px 20px; }
+
+@media screen and (max-width: 320px) {
+  ul.topnav li:not(:first-child) {
+    display: none; }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block; } }
+@media screen and (max-width: 320px) {
+  ul.topnav.responsive {
+    position: relative; }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline; }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left; } }
+@media screen and (min-width: 600px) {
+  .herohead, .herohome {
+    padding: 269 215 177 91px; }
+
+  .ticket-container, .sponsor-page .sponsor-ticket, .speaker-page .speaker-ticket {
+    float: left;
+    display: inline-block; }
+
+  .conference-content {
+    margin: 0 0 0 400px; }
+
+  .gray-background {
+    width: auto; }
+
+  .now-venue {
+    clear: both;
+    display: inline-block;
+    padding: 0 0 0 100px;
+    position: relative; } }
+
+/*# sourceMappingURL=style.css.map */

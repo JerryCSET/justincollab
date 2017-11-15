@@ -1,0 +1,26 @@
+.footer {
+    background-color: $gunmetal;
+    color: $grey;
+    .code {
+        h3 {
+            padding: 56px 149px 22px 20px;
+        }
+        p {
+            padding: 0 20px 0 21px;
+            line-height: 1.7;
+            a {
+                color: $grey;
+            }
+        }
+    }
+    .connect {
+        h3 {
+            padding: 80px 110px 0 20px;
+        }
+    }
+    .hashtag {
+        h3 {
+            padding: 82px 165px 105px 20px;
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.counter-container {
+    width: 280px;
+    height: 178px;
+    background-color: $yellow;
+    margin: 0 auto 25px;
+    position: relative;
+    top: -25px;
+    z-index: 1;
+    .counter {
+        padding: .5em;
+        .count-contain {
+            display: flex;
+            justify-content: space-around;
+            .count-box {
+                background-color: $white;
+                height: 83px;
+                width: 31%;
+                display: inline-block;
+            }
+        }
+        .day {
+            font-weight: bold;
+            color: $white;
+            text-align: center;
+            padding: 10px 0 15px 0;
+        }
+        .date {
+            color: $white;
+            text-align: center;
+        }
+    }
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav li {
+    float: right;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {
+    background-color: #555;
+}
+
+ul.topnav li.icon {
+    display: none;
+}
+.ticket-container {
+    background-color: $goldenrod;
+    height: 200px;
+    width: 281px;
+    margin: 0 auto;
+    position: relative;
+    top: -32px;
+    h1 {
+        color: $white;
+        text-align: center;
+        font-weight: bold;
+        padding: 40px 0 35px 0;
+        letter-spacing: 1.2px;
+    }
+    .ticket-button {
+        background-color: $white;
+        width: 250px;
+        height: 60px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0 5%;
+        a {
+            color: $yellow;
+            font-weight: bold;
+            letter-spacing: .9px;
+            padding: 0 auto;
+            text-decoration: none;
+        }
+    }
+}
+#countbox {
+    width: 100%;
+    font-size: 32px;
+    height: 450px;
+    letter-spacing: 75px;
+    margin: 35px 0 0 85px;
+    position: absolute
+}
+.white-background {
+    height: auto;
+    width: 92%;
+    padding: .75em;
+    h1 {
+        color: $yellow;
+        font-weight: medium;
+        letter-spacing: 1px;
+    }
+    h3 {
+        font-weight: bold;
+        line-height: 1.52;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+    }
+    p {
+        line-height: 1.4;
+        letter-spacing: 0.9px;
+    }
+    .main-button {
+        background-color: $yellow;
+        width: 250px;
+        height: 60px;
+        margin: 15px auto 65px;
+        text-align: center;
+        a {
+            color: $white;
+            font-weight: bold;
+            letter-spacing: .9px;
+            padding: 0 auto;
+            text-decoration: none;
+        }
+    }
+}
+.gray-background {
+    height: auto;
+    width: 92%;
+    padding: .75em;
+    background-color: $grey;
+    color: $silver;
+    h3 {
+        font-weight: bold;
+        letter-spacing: 0.9px;
+        line-height: 24px;
+        padding-top: 30px;
+    }
+    p {
+        letter-spacing: 0.8px;
+        line-height: 24px;
+    }
+    .spacer {
+        padding-bottom: 40px;
+    }
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+}

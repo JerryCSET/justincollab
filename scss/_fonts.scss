@@ -1,0 +1,60 @@
+.herohead {
+    font-family: $lora;
+    font-size: 24px;
+    font-weight: bold;
+    color: $yellow;
+    letter-spacing: 1.2;
+}
+.herohome {
+    @extend .herohead;
+    font-size: 32px;
+}
+.mont13 {
+    font-size: 13px;
+    font-family: $mont;
+}
+.mont14 {
+    font-size: 13.6px;
+    font-family: $mont;
+    font-weight: bolder;
+}
+.mont16 {
+    font-size: 16px;
+    font-family: $lora;
+}
+.mont18 {
+    font-family: $mont;
+    font-size: 18px;
+}
+.mont21 {
+    font-size: 21px;
+    font-family: $mont;
+}
+.mont24 {
+    font-size: 24px;
+    font-family: $mont;
+}
+.lora15 {
+    font-size: 15px;
+    font-family: $lora;
+}
+.lora16 {
+    font-size: 16px;
+    font-family: $lora;
+}
+.lora17 {
+    font-size: 17px;
+    font-family: $lora;
+}
+.lora18 {
+    font-size: 18px;
+    font-family: $lora;
+}
+.lora21 {
+    font-size: 21px;
+    font-family: $lora;
+}
+.lora24 {
+    font-size: 24px;
+    font-family: $lora;
+}
