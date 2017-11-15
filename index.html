@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:400,500,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyDpdaNVBD-vfX2keeYWCieYrXfklHnAM" type="text/javascript"></script>
+    <title>CPOSC Home</title>
+</head>
+
+<body>
+    <section class="hero">
+        <header> <a class="mont14">CENTRAL PENNSYLVANIA OPEN SOURCE CONFERENCE</a>
+            <ul class="topnav" id="myTopnav">
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </header>
+        <div class="line-below"></div>
+        <div>
+            <p class="herohome">Into the Great Wide Open (Source)</p>
+            <div class="white-line"></div>
+        </div>
+    </section>
+    <section class="counter-container">
+        <div class="counter">
+            <div class="count-contain">
+                <div id="countbox"></div>
+                <div class="count-box"></div>
+                <div class="count-box"></div>
+                <div class="count-box"></div>
+            </div>
+            <div class="day">
+                <p class="mont18">DAYS UNTIL CPOSC 2018</p>
+            </div>
+            <div class="date">
+                <p class="mont18">NOVEMBER 1, 2018</p>
+            </div>
+        </div>
+    </section>
+    <section class="ticket-container">
+        <div>
+            <h1 class="mont24">2017 TICKETS ARE NOW AVAILABLE</h1> </div>
+        <button class="ticket-button"> <a class="mont18" href="https://www.eventbrite.com/e/central-pa-open-source-conference-tickets-37584374877" target="_blank">BUY TICKETS</a> </button>
+    </section>
+    </section>
+    <section class="white-background">
+        <h3 class="lora21">The Central PA Open Source Conference (CPOSC) is a one-day technical conference for open source users and developers.</h3>
+        <p class="lora17"> Presentations and sessions cover all aspects of open source, with talks ranging from novice to expert skill levels and featuring case studies, best practices, code-alongs and more. Join us for a day of meeting with and learning from your technology peers.</p>
+    </section>
+    <section class="gray-background">
+        <div>
+            <h3 class="lora18">Why CPOSC?</h3>
+            <p class="lora16">Technology is evolving with unprecedented speed, which means it's more important than ever for those on the front lines of tech to gather, converse &amp; share their experiences. CPOSC offers technologists passionate about open source technologies that very opportunity through presentations, panel discussions, lightning talks and more.</p>
+        </div>
+        <div>
+            <h3 class="lora18">Why Downtown Lancaster?</h3>
+            <p class="lora16">As Downtown Lancaster's arts, music, drinking &amp; dining scenes have garnered national recognition over the past decade, we firmly believe that the Lancaster tech scene is in the midst of its own big break out. By moving downtown beginning in 2016, we wanted CPOSC to be at the center of this impending tech explosion. As a bonus: it's an easy walk from the Ware Center to the CPOSC After Party!</p>
+        </div>
+        <div>
+            <h3 class="lora18">What to expect:</h3>
+            <p class="lora16">Since the start, CPOSC has featured some of the most experienced technologists in the industry presenting on a variety of open source topics, from introductions to emerging technologies to deep dives into coding languages, as well as high-level case studies recounting what worked, what didn't work, and the lessons learned along the way.</p>
+        </div>
+        <div class="spacer"></div>
+    </section>
+    <section class="white-background">
+        <div>
+            <h3 class="lora21">Conference Sponsors</h3>
+            <p class="lora17">Thank you for supporting open source in Central Pennsylvania!</p>
+            <button class="main-button"> <a class="mont18" href="http://cposc.org/sponsor/" target="_blank">BECOME A SPONSOR</a> </button>
+        </div>
+        <div>
+            <h1 class="mont21">PLATINUM SPONSORS</h1>
+            <div> <img class="seisan" src="images/seisan.png"></div>
+            <h1 class="mont21">GOLD SPONSORS</h1>
+            <div class="flex"> <img class="printed-solid" src="images/printedsolid.png"> <img class="simple" src="images/simple.png"> </div>
+            <div> <img class="linode" src="images/linode.png"> </div>
+            <h1 class="mont21">SILVER SPONSORS</h1>
+            <div class="flex"> <img class="lulzbot" src="images/lulzbot.jpg"> <img class="tapestry" src="images/tapestry.png"> </div>
+            <div> <img class="elastic" src="images/elastic.png"> </div>
+            <h1 class="mont21">BRONZE SPONSORS</h1>
+            <div> <img class="lullabot" src="images/lullabot.png"> </div>
+            <h1 class="mont21">HOST SPONSORS</h1> <img class="m-logo" src="images/millersville.jpg"> </div>
+    </section>
+    <section class="gold-background">
+        <div>
+            <h2 class="mont21">CONFERENCE LOCATIONS</h2>
+            <div class="loc-con">
+                <a class="lora18" href="#" onclick="return false;" data-lat="40.038736" data-long="-76.308163">The Ware Center</a>
+                <p class="lora18">at Millersville University</p>
+                <p class="lora16">42 N. Prince Street,</p>
+                <p class="lora16">Lancaster, PA 17603</p>
+            </div>
+            <div class="loc-con">
+                <h3 class="lora18">Prince St. Parking Garage</h3>
+                <p class="lora16">111 N. Prince Street,</p>
+                <p class="lora16">Lancaster, PA 17603</p>
+            </div>
+            <div class="loc-con">
+                <h3 class="lora18">Tellus360</h3>
+                <p class="lora16">24 E. King Street,</p>
+                <p class="lora16">Lancaster, PA 17602</p>
+            </div>
+        </div>
+        <div onload="initialize()">
+            <iframe id="map" class="map" src="https://www.google.com/maps/d/embed?mid=1Bo5LJshk93kyrKbLLTC8YXV5od8&hl=en">
+        </div>
+        </iframe>
+    </section>
+    <footer class="footer">
+        <div class="code">
+            <h3 class="mont18">Code of Conduct</h3>
+            <p class="lora15">CPOSC is dedicated to a harassment-free conference experience for everyone. Our anti-harassment policy can be found on our About page, under <a href="http://cposc.org/code-of-conduct/">Code of Conduct</a> </p>
+        </div>
+        <div class="connect">
+            <div>
+                <h3 class="mont18">Connect with CPOSC</h3> </div>
+            <div class="hashtag">
+                <h3 class="mont18">#CPOSC2017</h3> </div>
+        </div>
+    </footer>
+</body>
+
+</html>

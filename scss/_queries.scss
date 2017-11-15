@@ -1,0 +1,49 @@
+@media screen and (max-width:320px) {
+	ul.topnav li:not(:first-child) {
+		display: none;
+	}
+	ul.topnav li.icon {
+		float: right;
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:320px) {
+	ul.topnav.responsive {
+		position: relative;
+	}
+	ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.topnav.responsive li {
+		float: none;
+		display: inline;
+	}
+	ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+}
+@media screen and (min-width:600px) {
+	.herohead {
+		padding: 269 215 177 91px;
+	}
+	.ticket-container {
+		float: left;
+		display: inline-block;
+	}
+	.conference-content{
+		margin: 0 0 0 400px;
+	}
+	.gray-background {
+		width: auto;
+	}
+	.now-venue {
+		clear: both;
+		display: inline-block;
+		padding: 0 0 0 100px;
+		position: relative;
+	}
+}

@@ -1,0 +1,38 @@
+.ticket-page {
+  .hero {
+    .herohead {
+      padding-top: 25px;
+      padding-right: 50px;
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+    }
+    }
+    .white-background {
+      h3 {
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-top: 15px;
+        padding-right: 5px;
+      }
+      h5 {
+        color: $goldenrod;
+      }
+      p {
+        margin: 20px auto 15px
+      }
+      .divider-gold {
+        height: 2px;
+        width: 95%;
+        margin: 0 auto;
+        background-color: $yellow;
+      }
+      .button-container {
+        width: 100%;
+        margin: 0 auto;
+        .main-button {
+          margin: 20px auto;
+          display: block;
+        }
+      }
+    }
+  }
